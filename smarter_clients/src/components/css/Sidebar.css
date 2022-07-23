@@ -1,0 +1,98 @@
+.sideBarLink{
+    width: 268px;
+    height: 38px;
+    background: #F8E1E7;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.sideBarLink > span{
+    /* padding: 20px 50px; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: space-between; */
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 640px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    align-items: center;
+    /* padding-top: 80px; */
+}
+
+.sideBarIconBox{
+    height: 35px;
+    width: 35px;
+}
+.circle{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(134, 134, 134);
+}
+
+.upSideBar{
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.downSideBar{
+     flex: 1;
+     display: flex;
+     align-items: flex-end;
+
+}
+
+.sideBarIconBox > .MuiSvgIcon-root{
+    color: #fff!important;
+}
+
+.sideBarLinkTitle{
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+    margin-left: 15px;
+    background: transparent!important;
+}
+
+.signoutBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    transition: all 2.4ms ease ease-in-out;
+}
+.signoutBtn span .MuiSvgIcon-root{
+    font-size: 22px;
+}
+
+.signoutBtn:hover .signOutBtnText{
+    color:  #D83A52;
+    cursor: pointer;
+   
+
+}
+.signOutBtnText{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 3ms ease ease-in-out;
+}
+
+.sidebarlink-active .sideBarIconBox{
+    background-color:  #D83A52;
+}
+.sidebarlink-active .sideBarLinkTitle{
+    color:  #D83A52;
+}
