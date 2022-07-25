@@ -10,10 +10,12 @@ Created using MERN Stack.
 PORT = 3300
 DB_URI = mongodb+srv://smart_coder:smart_coder@cluster0.8fpsi59.mongodb.net/?retryWrites=true&w=majority
 JWT_SECRET_KEY = ajhfaehf83ufalhfjanj823urhf
-EMAIL_HOST = smtp.gamil.com
-EMAIL_PORT = 465  
-EMAIL_USER = xxxxxxxxxxxxx
-EMAIL_PASS = xxxxxxxxxxxxx
-EMAIL_FROM = xxxxxxxxxxxxx
+EMAIL_HOST = smtp.gmail.com
+EMAIL_PORT = 587
+EMAIL_USER = adk2049@gmail.com
+EMAIL_PASS = XXXXXXXXXXXXXXX
+EMAIL_FROM = adk2049@gmail.com
+CLIENTID = 245941433029-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX7ad.apps.googleusercontent.com
+CLIENTSECRET = GOCSPX-XXXXXXXXXXXXXXX25J-2XiPe
 }{DB_URI should match.!}{Fill email user,pass,from if you want to send mail}
 ]
