@@ -1,0 +1,83 @@
+.inputContainer{
+    width: 385px;
+    height: 60px;
+    border: 1px solid #B6B5B5;
+    border-radius: 12px;
+    padding-left: 5px;
+    margin-top: 50px;
+    /* margin-bottom: 30px; */
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.upInput{
+    
+}
+.downInput{
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.8px;
+}
+.icon>.MuiSvgIcon-root{
+    font-size: 19px;
+}
+
+.input{
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 9px 10px;
+    background: transparent;
+}
+
+.t-center{
+    text-align: center;
+}
+.authButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-top: 50px;
+}
+.MuiButton-root{
+    background: #D83A52!important;
+    border-radius: 5px!important;
+    color: white!important;
+    padding: 10px 30px!important;
+}
+
+.signup{
+    width: 1067px;
+    height: 606px;
+    background: #F8F7F7;
+    border-radius: 32px;
+}
+.authBox{
+    width: 1067px;
+    height: 606px;
+    background: #F8F7F7;
+    border-radius: 32px;
+}
+.signUpBody{
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.signUpBody > p{
+    margin-top: 50px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.forgotPassLink{
+    margin-left: 20%;
+    margin-top: 10px;
+    color: #646464;
+}
